@@ -49,10 +49,15 @@ export const Buttons = (props) => {
         }
     }, [isDataLoaded]);
 
+    const tweet = () => {
+        const twitterUrl = `https://twitter.com/intent/tweet?text=${loadedQuote.text} - ${loadedQuote.author}`;
+        window.open(twitterUrl, '_blank');
+    }
+
     return (
         <div className={styles['button-container']}>
-            <button className={styles.twitter} title="Tweet this!">
-                <i className="fab fa-twitter"></i>
+            <button className={styles.twitter} title="Tweet this!" onClick={tweet}>
+                <i className="fa-brands fa-x-twitter"></i>
             </button>
             <button title="Add a new quote!" onClick={loadQuote}>New quote</button>
         </div>
