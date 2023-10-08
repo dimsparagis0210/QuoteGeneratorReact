@@ -1,8 +1,6 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Quote Generator
+This repository includes the code of a basic "Quote Generator" application, developed with React. If you want to run the code follow these steps:
+1) Download the code zip
+2) Open the code in a code editor
+3) Run in the terminal/command line "npm install"
+4) Run "npm start" to start the server
